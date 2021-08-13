@@ -62,6 +62,10 @@ export function sendDiscordMessage(link: Link, store: Store) {
             Object.values(notifyGroupSeries)[notifyIndex]
           );
         }
+        if (notifyText.length === 0)
+        {
+          notifyText.push(" ");
+        }
 
         const promises = [];
         for (const webhook of webhooks) {
