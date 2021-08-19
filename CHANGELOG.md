@@ -1,6 +1,6 @@
 # Changelog
 
-## [3.6.0](https://www.github.com/jef/streetmerchant/compare/v3.5.0...v3.6.0) (2021-08-11)
+## [3.6.0](https://www.github.com/jef/streetmerchant/compare/v3.5.0...v3.6.0) (2021-08-13)
 
 
 ### Features
@@ -44,6 +44,7 @@
 * **bestbuy-ca:** avoid false positive ([#2694](https://www.github.com/jef/streetmerchant/issues/2694)) ([0c589a7](https://www.github.com/jef/streetmerchant/commit/0c589a71f259c80ff21a4bb623f9316cb7702a61))
 * **captcha:** use Slack captcha handler token when provided ([#2460](https://www.github.com/jef/streetmerchant/issues/2460)) ([164902a](https://www.github.com/jef/streetmerchant/commit/164902a587d80f0421b44079e0616ba37a7a743f)), closes [#2428](https://www.github.com/jef/streetmerchant/issues/2428)
 * clear cookies when rotating proxies ([#2575](https://www.github.com/jef/streetmerchant/issues/2575)) ([8854ce9](https://www.github.com/jef/streetmerchant/commit/8854ce97bba7858dfc9385530e0c090200944ede))
+* **discord:** add Discord.ClientOptions ([#2714](https://www.github.com/jef/streetmerchant/issues/2714)) ([3787c54](https://www.github.com/jef/streetmerchant/commit/3787c543964489fe5893ca6e6f4ac17593f310d5))
 * **discord:** properly wait for webhooks ([#2352](https://www.github.com/jef/streetmerchant/issues/2352)) ([bc59da1](https://www.github.com/jef/streetmerchant/commit/bc59da11d512f6f55449781cb8f7f4bd1d3e7e57))
 * **docker:** disable opening browser ([d13f7f1](https://www.github.com/jef/streetmerchant/commit/d13f7f1ff91ada223e8ce7eb50d9a80030cbe668))
 * **lookup:** prevent terminal from being hidden ([#2461](https://www.github.com/jef/streetmerchant/issues/2461)) ([39fac90](https://www.github.com/jef/streetmerchant/commit/39fac90ba4feadb7e5c681db60e60a83749f5e62))
@@ -55,6 +56,7 @@
 * remove spaces from price ([#2482](https://www.github.com/jef/streetmerchant/issues/2482)) ([eb76f0d](https://www.github.com/jef/streetmerchant/commit/eb76f0d2b78726c4380853bd47edcf9b1302e7bb))
 * **terraform:** update IAM configuration for ECS deployment ([#2675](https://www.github.com/jef/streetmerchant/issues/2675)) ([9c346e7](https://www.github.com/jef/streetmerchant/commit/9c346e70fac17854d347dfbdbc238bfb0056c6a8))
 * **web:** add favicon to prevent missing icon console error ([#2375](https://www.github.com/jef/streetmerchant/issues/2375)) ([2be33ac](https://www.github.com/jef/streetmerchant/commit/2be33ac6147f8f7460d108f361d954b17a335bd9))
+* **xbox:** false positive ([#2726](https://www.github.com/jef/streetmerchant/issues/2726)) ([e5e8481](https://www.github.com/jef/streetmerchant/commit/e5e84814379c0d777188b6e321edbe0b780ab3fd))
 
 
 ### Reverts
